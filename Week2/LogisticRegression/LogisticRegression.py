@@ -10,8 +10,8 @@ import h5py
 from matplotlib import pyplot as plt
 from lr_utils import load_dataset
 
-num_iterations=2000
-learning_rate=0.005
+num_iterations=2000 #迭代次数
+learning_rate=0.005 #学习率
 #tarain_set_y_orig为1x209的向量 标签
 #test_set_y_orign为1x50的向量 标签
 
